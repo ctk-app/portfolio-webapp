@@ -41,10 +41,10 @@ export default function Home() {
       </section>
 
       {/* 직접 만든 서비스 */}
-      <section id="work" style={{ padding: "120px 20px" }}>
+      <section id="work" style={{ padding: "80px 20px" }}>
         <div style={{ maxWidth: 1024, margin: "0 auto" }}>
           <p style={{ fontSize: 13, fontWeight: 600, color: "var(--accent-light)", letterSpacing: 2, marginBottom: 8 }}>PROJECTS</p>
-          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 48 }}>직접 만들고 운영 중인 서비스</h2>
+          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 32 }}>직접 만들고 운영 중인 서비스</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 24 }}>
             {/* CTK */}
             <div className="card" style={{ padding: 28 }}>
@@ -93,10 +93,10 @@ export default function Home() {
       </section>
 
       {/* 이런 기능을 만들 수 있습니다 */}
-      <section id="features" style={{ padding: "120px 20px" }}>
+      <section id="features" style={{ padding: "80px 20px" }}>
         <div style={{ maxWidth: 1024, margin: "0 auto" }}>
           <p style={{ fontSize: 13, fontWeight: 600, color: "var(--accent-light)", letterSpacing: 2, marginBottom: 8 }}>FEATURES</p>
-          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 48 }}>이런 기능을 만들 수 있습니다</h2>
+          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 32 }}>이런 기능을 만들 수 있습니다</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
             {[
               { n: "01", title: "로그인 / 회원가입", desc: "이메일, 소셜 로그인, 비밀번호 찾기까지.\n한 번 만들면 알아서 돌아갑니다." },
@@ -117,10 +117,10 @@ export default function Home() {
       </section>
 
       {/* 진행 과정 */}
-      <section style={{ padding: "120px 20px" }}>
+      <section style={{ padding: "80px 20px" }}>
         <div style={{ maxWidth: 896, margin: "0 auto" }}>
           <p style={{ fontSize: 13, fontWeight: 600, color: "var(--accent-light)", letterSpacing: 2, marginBottom: 8 }}>PROCESS</p>
-          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 48 }}>이렇게 진행됩니다</h2>
+          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 32 }}>이렇게 진행됩니다</h2>
           <div>
             {[
               { s: "01", title: "상담", desc: "어떤 기능이 필요한지 듣고, 참고 사이트와 예산을 함께 정리합니다." },
@@ -141,10 +141,10 @@ export default function Home() {
       </section>
 
       {/* 예상 비용 */}
-      <section id="pricing" style={{ padding: "120px 20px" }}>
+      <section id="pricing" style={{ padding: "80px 20px" }}>
         <div style={{ maxWidth: 1024, margin: "0 auto" }}>
           <p style={{ fontSize: 13, fontWeight: 600, color: "var(--accent-light)", letterSpacing: 2, marginBottom: 8 }}>PRICING</p>
-          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 48 }}>예상 비용</h2>
+          <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 32 }}>예상 비용</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 24 }}>
             {[
               { n: "01", title: "홈페이지", price: "30만원~", desc: "반응형 원페이지부터 다페이지까지.\n모바일 대응, SEO 기본 세팅 포함.", items: ["반응형 디자인", "SEO 최적화", "모바일 대응", "도메인 연결 + 배포"] },
@@ -170,7 +170,7 @@ export default function Home() {
       </section>
 
       {/* 문의 */}
-      <section id="contact" style={{ padding: "120px 20px" }}>
+      <section id="contact" style={{ padding: "80px 20px" }}>
         <div style={{ maxWidth: 576, margin: "0 auto", textAlign: "center" }}>
           <p style={{ fontSize: 13, fontWeight: 600, color: "var(--accent-light)", letterSpacing: 2, marginBottom: 8 }}>CONTACT</p>
           <h2 style={{ fontSize: "clamp(24px, 3vw, 32px)", fontWeight: 700, marginBottom: 16 }}>프로젝트 문의</h2>
