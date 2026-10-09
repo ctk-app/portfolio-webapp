@@ -18,8 +18,8 @@ export default function Home() {
       </nav>
 
       {/* 히어로 */}
-      <section className="min-h-screen flex items-center px-5">
-        <div className="max-w-4xl mx-auto">
+      <section style={{ minHeight: "100vh", display: "flex", alignItems: "center", padding: "0 20px" }}>
+        <div style={{ maxWidth: "896px", margin: "0 auto", width: "100%" }}>
           <div className="tag mb-6">SaaS 2종 직접 개발 · 운영 중</div>
           <h1 className="text-4xl sm:text-6xl font-bold leading-tight mb-6">
             아이디어만 있으면 됩니다.<br />
@@ -46,7 +46,7 @@ export default function Home() {
 
       {/* 직접 만든 서비스 */}
       <section id="work" className="py-24 px-5">
-        <div className="max-w-5xl mx-auto">
+        <div style={{ maxWidth: "1024px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>PROJECTS</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">직접 만들고 운영 중인 서비스</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -98,7 +98,7 @@ export default function Home() {
 
       {/* 이런 기능을 만들 수 있습니다 */}
       <section id="features" className="py-24 px-5">
-        <div className="max-w-5xl mx-auto">
+        <div style={{ maxWidth: "1024px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>FEATURES</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">이런 기능을 만들 수 있습니다</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -122,7 +122,7 @@ export default function Home() {
 
       {/* 진행 과정 */}
       <section className="py-24 px-5">
-        <div className="max-w-4xl mx-auto">
+        <div style={{ maxWidth: "896px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>PROCESS</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">이렇게 진행됩니다</h2>
           <div className="space-y-8">
@@ -146,7 +146,7 @@ export default function Home() {
 
       {/* 예상 비용 */}
       <section id="pricing" className="py-24 px-5">
-        <div className="max-w-5xl mx-auto">
+        <div style={{ maxWidth: "1024px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>PRICING</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">예상 비용</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -175,7 +175,7 @@ export default function Home() {
 
       {/* 문의 */}
       <section id="contact" className="py-24 px-5">
-        <div className="max-w-xl mx-auto text-center">
+        <div style={{ maxWidth: "576px", margin: "0 auto", width: "100%", textAlign: "center" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>CONTACT</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">프로젝트 문의</h2>
           <p className="text-base mb-8 leading-relaxed" style={{ color: "var(--sub)" }}>
