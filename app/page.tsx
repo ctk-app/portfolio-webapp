@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* 직접 만든 서비스 */}
-      <section id="work" className="py-24 px-5">
+      <section id="work" style={{ padding: "96px 20px" }}>
         <div style={{ maxWidth: "1024px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>PROJECTS</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">직접 만들고 운영 중인 서비스</h2>
@@ -97,7 +97,7 @@ export default function Home() {
       </section>
 
       {/* 이런 기능을 만들 수 있습니다 */}
-      <section id="features" className="py-24 px-5">
+      <section id="features" style={{ padding: "96px 20px" }}>
         <div style={{ maxWidth: "1024px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>FEATURES</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">이런 기능을 만들 수 있습니다</h2>
@@ -121,7 +121,7 @@ export default function Home() {
       </section>
 
       {/* 진행 과정 */}
-      <section className="py-24 px-5">
+      <section style={{ padding: "96px 20px" }}>
         <div style={{ maxWidth: "896px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>PROCESS</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">이렇게 진행됩니다</h2>
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* 예상 비용 */}
-      <section id="pricing" className="py-24 px-5">
+      <section id="pricing" style={{ padding: "96px 20px" }}>
         <div style={{ maxWidth: "1024px", margin: "0 auto", width: "100%" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>PRICING</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-12">예상 비용</h2>
@@ -174,7 +174,7 @@ export default function Home() {
       </section>
 
       {/* 문의 */}
-      <section id="contact" className="py-24 px-5">
+      <section id="contact" style={{ padding: "96px 20px" }}>
         <div style={{ maxWidth: "576px", margin: "0 auto", width: "100%", textAlign: "center" }}>
           <p className="text-sm font-semibold mb-2 tracking-wide" style={{ color: "var(--accent-light)" }}>CONTACT</p>
           <h2 className="text-2xl sm:text-3xl font-bold mb-4">프로젝트 문의</h2>
@@ -191,7 +191,7 @@ export default function Home() {
       </section>
 
       {/* 푸터 */}
-      <footer className="py-8 px-5 text-center border-t" style={{ borderColor: "var(--border)" }}>
+      <footer style={{ padding: "32px 20px", textAlign: "center", borderTop: "1px solid var(--border)" }} style={{ borderColor: "var(--border)" }}>
         <p className="text-sm" style={{ color: "var(--muted)" }}>&copy; 2026 YW.dev. All rights reserved.</p>
       </footer>
     </>
